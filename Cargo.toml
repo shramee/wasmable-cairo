@@ -1,0 +1,12 @@
+[package]
+name = "wasmable_cairo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasm-bindgen = "0.2.93"
+serde_json = "1.0.91"
+cairo-lang-starknet = { package = "cairo-lang-starknet", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d"}
+cairo-lang-compiler = { package = "cairo-lang-compiler", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d"}
+cairo-lang-runner = { package = "cairo-lang-runner", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d", features = ["alloc"], default-features = false}
+cairo-lang-test-runner = { package = "cairo-lang-test-runner", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d", features = ["alloc"], default-features = false}
