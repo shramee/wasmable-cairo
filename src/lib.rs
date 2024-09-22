@@ -1,3 +1,4 @@
+pub mod compiler;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
