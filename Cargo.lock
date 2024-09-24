@@ -2370,6 +2370,7 @@ dependencies = [
  "cairo-lang-runner",
  "cairo-lang-semantic",
  "cairo-lang-sierra",
+ "cairo-lang-sierra-generator",
  "cairo-lang-starknet",
  "cairo-lang-test-runner",
  "clap",

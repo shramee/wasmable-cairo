@@ -13,6 +13,7 @@ cairo-lang-sierra = { package = "cairo-lang-sierra", git = "https://github.com/s
 cairo-lang-semantic = { package = "cairo-lang-semantic", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d"}
 cairo-lang-compiler = { package = "cairo-lang-compiler", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d"}
 cairo-lang-runner = { package = "cairo-lang-runner", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d", features = ["alloc"], default-features = false}
+cairo-lang-sierra-generator = { package = "cairo-lang-sierra-generator", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d"}
 cairo-lang-test-runner = { package = "cairo-lang-test-runner", git = "https://github.com/shramee/cairo.git", rev = "9c6e6baa1735a48894c44c60536c317032f5e91d", features = ["alloc"], default-features = false}
 clap = { version = "4.5.17", features = ["derive"] }
 anyhow = "1.0.89"
